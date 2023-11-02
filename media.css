@@ -1,0 +1,494 @@
+@media screen and (max-width: 500px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .navbaroptionsdiv {
+        display: none;
+    }
+
+    .selectionBox {
+        display: none;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .logodiv {
+        justify-content: center;
+    }
+
+    .loginbuttondiv {
+        justify-content: center;
+    }
+
+    /* ---___Connect Expert___--- */
+
+    .connect-expert-div {
+        width: 150px;
+        height: 80px;
+        border-radius: 0px;
+    }
+
+    /* --___searchbar___--- */
+
+    .searchbardiv {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .textbardiv {
+        height: 900px;
+    }
+
+    .search {
+        margin-left: 150px;
+        border-style: none;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .textbardiv {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .tryplusdiv {
+        /* width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center; */
+        display: none;
+    }
+
+    .tryplusimage {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ---____limitedSlot____--- */
+
+    .limitedslotdiv {
+        width: 100%;
+        height: 240px;
+        align-items: baseline;
+    }
+
+    .slotpic {
+        height: 200px;
+    }
+
+    /* ---____Hosptal Menu___--- */
+
+    .hospitalmenudiv {
+        width: 100%;
+        height: 265vh;
+        /* background-color: rgb(142, 164, 184); */
+    }
+
+    .allmenudiv {
+        flex-direction: column;
+        height: 260vh;
+        justify-content: center;
+        background-color: rgba(231, 239, 239, 0.633);
+    }
+
+    .menudiv-one {
+        background-color: rgba(231, 239, 239, 0.633);
+    }
+
+    .menudiv-two {
+        background-color: rgba(231, 239, 239, 0.633);
+    }
+
+    .menudiv-three {
+        background-color: rgba(231, 239, 239, 0.633);
+    }
+
+    .menudiv-four {
+        background-color: rgba(231, 239, 239, 0.633);
+    }
+
+    .menudiv-five {
+        background-color: rgba(231, 239, 239, 0.633);
+    }
+
+
+    /*                 Menu Div one */
+
+    .menupicdiv-one {
+        height: 180px;
+    }
+
+    .menuinfodiv-one {
+        height: 100px;
+    }
+
+    /*                  Menu Div Two */
+
+    .menupicdiv-two {
+        height: 182px;
+    }
+
+    .menuinfodiv-two {
+        height: 100px;
+    }
+
+    /*                 Menu Div Three */
+
+    .menupicdiv-three {
+        height: 185px;
+    }
+
+    .menuinfodiv-three {
+        height: 100px;
+    }
+
+    /*                 Menu Div Four */
+
+    .menupicdiv-four {
+        height: 185px;
+    }
+
+    .menuinfodiv-four {
+        height: 100px;
+    }
+
+    /*                Menu Div Five */
+
+    .menupicdiv-Five {
+        height: 185px;
+    }
+
+    .menuinfodiv-five {
+        height: 100px;
+    }
+
+    /* ---____consultation____--- */
+
+    .consultation-maindiv {
+        width: 100%;
+        height: 222vh;
+        /* background-color: aqua; */
+    }
+
+    .consult-subdiv {
+        width: 100%;
+        height: 220vh;
+        /* background-color: tomato; */
+        justify-content: space-evenly;
+    }
+
+    .textandbuttondiv {
+        height: 150px;
+        flex-direction: column;
+    }
+
+    .textdiv {
+        width: 100%;
+        height: 200px;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .headtext {
+        text-align: center;
+    }
+
+    .subheadtext {
+        display: none;
+    }
+
+    .buttondiv {
+        width: 100%;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .viewallbutton {
+        width: 100px;
+        height: 40px;
+    }
+
+    .consult-listdiv {
+        flex-direction: column;
+        align-items: center;
+        height: 192vh;
+    }
+
+
+    /* Booking section */
+
+    .booking-maindiv {
+        width: 100%;
+        height: 220vh;
+        /* background-color: aqua; */
+    }
+
+    .booking-subdiv {
+        width: 100%;
+        height: 210vh;
+        /* background-color: coral; */
+    }
+
+    .headline-div {
+        height: 100px;
+        width: 100%;
+    }
+
+    .headline-text {
+        text-align: center;
+    }
+
+    .secndhead-text {
+        display: none;
+    }
+
+    .doctors-maindiv {
+        height: 200vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .doc-subdiv {
+        height: 300px;
+    }
+
+    .doc-depmnt-div {
+        width: 100%;
+        height: 100px;
+        padding: 3px;
+        overflow-y: hidden;
+    }
+
+    .depmnttext-maindiv {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .depmnttext-seconddiv {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .depmnt-subtext {
+        text-align: center;
+    }
+
+
+    /* ----_______READ TOP ARTICLES_____---- */
+
+
+    .articles-main {
+        width: 100%;
+        height: 144vh;
+        /* background-color: blue; */
+    }
+
+    .articles-innermain {
+        width: 100%;
+        height: 143vh;
+        flex-direction: column;
+    }
+
+    .left-div {
+        /* background-color: aqua; */
+        height: 30vh;
+    }
+
+    .innertext-div {
+        /* background-color: chartreuse; */
+        justify-content: center;
+    }
+
+    .maintext-div {
+        /* background-color: coral; */
+        text-align: center;
+    }
+
+    .subtext-div {
+        /* background-color: darkslateblue; */
+        text-align: center;
+    }
+
+    .articles-button-div {
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+    }
+
+
+    /*                Right */
+    .right-div {
+        /* background-color: darkgoldenrod; */
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 110vh;
+    }
+
+    .pic-name-maindiv-one {
+        /* background-color: darkseagreen; */
+        height: 310px;
+    }
+
+    .pic-name-maindiv-two {
+        /* background-color: rgb(36, 149, 36); */
+        height: 310px;
+    }
+
+
+    /* ----____What to say___---- */
+
+    .whattosay-main {
+        /* background-color: brown; */
+        width: 100%;
+        height: 160px;
+    }
+
+    .whattosay-head-textdiv {
+        /* background-color: aqua; */
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .whattosay-text {
+        font-size: 20px;
+    }
+
+    .whattosay-sub {
+        /* background-color: tomato; */
+        width: 100%;
+        height: 100px;
+    }
+
+    .description-div {
+        /* background-color: springgreen; */
+        height: 60px;
+    }
+
+    .description-text {
+        text-align: center;
+        font-size: small;
+    }
+
+    /* .doctor-name-div{
+    background-color: rgb(189, 188, 181);
+} */
+
+
+    /* ----____Download APP____---- */
+
+    .downloadApp-main {
+        background-color: rgb(234, 231, 233);
+        height: 210px;
+    }
+
+    .left-maindiv {
+        /* background-color: chartreuse; */
+        display: none;
+    }
+
+    .right-maindiv {
+        /* background-color: cyan; */
+        width: 100%;
+        height: 200px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .download-textdiv {
+        /* background-color: rgb(214, 85, 85); */
+        height: 80px;
+        /* margin-bottom: 160px; */
+        text-align: center;
+    }
+
+    .download-para-div {
+        display: none;
+        /* background-color: darkgray; */
+    }
+
+    .getlink-textdiv {
+        /* background-color: chartreuse; */
+        justify-content: center;
+    }
+
+    .input-button-div {
+        /* background-color: rgb(133, 80, 255); */
+        display: none;
+    }
+
+
+
+    /* ----____Footer____---- */
+
+    .footer-main {
+        height: 300px;
+    }
+
+    .footer-links-maindiv {
+        /* background-color: violet; */
+        height: 180px;
+        display: flex;
+        justify-content: space-evenly;
+        overflow-y: hidden;
+    }
+
+    .links-title-practo {
+        /* background-color: blue; */
+        margin-right: 21px;
+    }
+
+    .all-linkdiv-one {
+        /* background-color: yellow; */
+        width: 30%;
+        margin-top: 20px;
+        height: 200px;
+    }
+
+    .all-linkdiv-two {
+        display: none;
+    }
+
+    .all-linkdiv-three {
+        display: none;
+    }
+
+    .all-linkdiv-four {
+        display: none;
+    }
+
+    .all-linkdiv-five {
+        display: none;
+    }
+
+    .all-linkdiv-six {
+        /* background-color: yellow; */
+        width: 30%;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    /* ---___Footer Logo___--- */
+
+    .footer-logo-main {
+        height: 50px;
+    }
+
+    .foot-logoipic {
+        width: 100px;
+    }
+
+    .copyright-text {
+        font-size: small;
+    }
+
+
+}

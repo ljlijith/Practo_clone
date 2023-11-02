@@ -1,0 +1,1204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    background-color: cyan;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* _________ Navbar  _______ */
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-bottom-color: #f0f0f5;
+}
+.itemsdiv{
+    background-color: white;
+    vertical-align: middle;
+    width: 98%;
+    display: flex;
+}
+.logodiv{
+    background-color:white;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainlogopic{
+    margin-left: 5px;
+    width: 110px;
+    margin-left: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.navbaroptionsdiv{
+    background-color: white ;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pages{
+    color: #414146;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Lato,Helvetica,Arial,sans-serif!important;
+    letter-spacing: -0.3px;
+}
+.selectionBox{
+    background-color: white;
+    width: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.firstselection{
+    width: 120px;
+    height: 20px;
+    margin-left: 15px;
+    border-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Lato","Open Sans",sans-serif;
+    color: #414146;
+}
+.loginbuttondiv{
+    background-color: white;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.signupbutton{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    color: #6f6f86;
+    margin-left: 6px;
+    background-color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    border-color: #b9b9c8;
+}
+
+/* __________   Searchbar place   _______ */
+
+.searchbardiv{
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.textbardiv{
+    background-color: white;
+    width: 800px;
+    height: 70px;
+    margin-right: 140px;
+    display: flex;
+    align-items: center;
+}
+.location{
+    width: 280px;
+    height: 40px;
+    border-radius: 0%;
+    border-width: 1px;
+    padding-left: 10px;
+    margin-left: 55px;
+}
+.search{
+    height: 40px;
+    width: 440px;
+    border-radius:0% ;
+    border-width:1px;
+    padding-left: 10px;
+}
+.tryplusdiv{
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tryplusimage{
+    width: 200px;
+    height: 40px;
+}
+
+
+/* _________limited slot big img space_________ */
+
+.limitedslotdiv{
+    background-color: white;
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slotpic{
+    width:85%;
+}
+
+/* _______Hospital Menu________ */
+
+.hospitalmenudiv{
+    background-color: white;
+    width: 100%;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+
+}
+.allmenudiv{
+    background-color: white;
+    width: 92%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.menudiv-one{
+    background-color: white;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.menupicdiv-one{
+    background-color: #AFCFED;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #f0f0f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,.12);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    cursor: pointer;
+}
+.firstpic{
+    width: 135px;
+    height: 170px;
+    margin-top: 10px;
+}
+.menuinfodiv-one{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border: 1px solid #f0f0f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,.12);
+    cursor: pointer;
+}
+.firstinfo-one{
+    font-size: 20px;
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.seconfinfo-one{
+    font-size: 14px;
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.menudiv-two{
+    background-color: white;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.menupicdiv-two{
+    background: #98CBD6;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #f0f0f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,.12);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    cursor: pointer;
+}
+.secondpic{
+    width: 160px;
+    height: 172px;
+    margin-top: 10px;
+}
+.menuinfodiv-two{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border: 1px solid #f0f0f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,.12);
+    cursor: pointer;
+}
+.firstinfo-two{
+    font-size: 20px;
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.secondinfo-two{
+    font-size: 14px;
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+.menudiv-three{
+    background-color: white;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.menupicdiv-three{
+    background: #CCD0DB;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #f0f0f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,.12);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    cursor: pointer;
+}
+.thirdpic{
+    width: 160px;
+    height: 175px;
+    margin-top: 10px;
+}
+.menuinfodiv-three{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border: 1px solid #f0f0f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,.12);
+    cursor: pointer;
+}
+.firstinfo-three{
+    font-size: 20px;
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.secondinfo-three{
+    font-size: 14px;
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+.menudiv-four{
+    background-color: white;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.menupicdiv-four{
+    background: #AFCFED;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #f0f0f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,.12);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    cursor: pointer;
+}
+.fourthpic{
+    width: 160px;
+    height: 175px;
+    margin-top: 10px;
+}
+.menuinfodiv-four{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border: 1px solid #f0f0f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,.12);
+    cursor: pointer;
+}
+
+.firstinfo-four{
+    font-size: 20px;
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.secondinfo-four{
+    font-size: 14px;
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+.menudiv-five{
+    background-color: white;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.menupicdiv-five{
+    background: #D5D8FC;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #f0f0f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,.12);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    cursor: pointer;
+}
+.fifthpic{
+    width: 160px;
+    height: 175px;
+    margin-top: 10px;
+}
+.menuinfodiv-five{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border: 1px solid #f0f0f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,.12);
+    cursor: pointer;
+}
+
+.firstinfo-five{
+    font-size: 20px;
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.secondinfo-five{
+    font-size: 14px;
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+/* ------- _________Consultation________------- */
+
+.consultation-maindiv{
+    background-color: white;
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+}
+.consult-subdiv{
+    background-color: white;
+    width: 88%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+}
+.textandbuttondiv{
+    /* background-color: crimson; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.textdiv{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+}
+.headtext{
+    color: #414146;
+    font-size: 24px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.subheadtext{
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-top: 5px;
+}
+.buttondiv{
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viewallbutton{
+    width: 180px;
+    height: 45px;
+    font-size: 15px;
+    color: #14bef0;
+    font-weight: 400;
+    border: 1.5px solid #14bef0;
+    background-color: #fff;
+    border-radius: 4px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.consult-listdiv{
+    /* background-color: #14bef0; */
+    width: 100%;
+    height: 280px;
+    display: flex;
+}
+.item-maindiv{
+    /* background-color: darkolivegreen; */
+    width: 200px;
+    height: 270px;
+    /* border-style: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.item-subdiv{
+    /* background-color: rgb(234, 213, 183); */
+    width: 160px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.itempic-div{
+    /* background-color: #98CBD6; */
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+.itempic{
+    width: 120px;
+    height: 120px;
+}
+.titles-div{
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titles{
+    font-size: 14px;
+    color: #4d4d56;
+    font-weight: 700;
+    font-family: Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+.consultnow-div{
+    /* background-color: deeppink; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.consult{
+    color: #14bef0;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* ------_________Booking_________------ */
+
+
+.booking-maindiv{
+    background-color: white;
+    width: 100%;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+}
+.booking-subdiv{
+    /* background-color: rgb(67, 111, 102); */
+    width: 88%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+}
+.headline-div{
+    /* background-color: #14bef0; */
+    width: 100%;
+    height: 70px;
+}
+.headline-text{
+    font-weight: 700;
+    color: #414146;
+    font-size: 24px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.secndhead-text{
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-top: 5px;
+}
+.doctors-maindiv{
+    /* background-color: rgb(136, 56, 56); */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.doc-subdiv{
+    /* background-color: springgreen; */
+    width: 290px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.doc-pic{
+    width: 100%;
+    height: 220px;
+    border-radius: 3px;
+}
+.doc-pic:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.doc-depmnt-div{
+    /* background-color: rgb(81, 42, 197); */
+    width: 100%;
+    height: 80px;
+}
+.depmnttext-maindiv{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 48%;
+    display: flex;
+    align-items: flex-end;
+}
+.depmnt-maintext{
+    font-size: 16px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    color: #414146;
+}
+.depmnt-maintext:hover{
+    color: #04b3e8;
+}
+.depmnttext-seconddiv{
+    /* background-color: rgb(150, 130, 128); */
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.depmnt-subtext{
+    color: #414146;
+    font-size: 14px;
+    font-family: Helvetica,Arial,sans-serif;
+    margin-top: 3px;
+}
+
+
+/* ----_______READ TOP ARTICLES_____---- */
+
+
+.articles-main{
+    background-color: white;
+    width: 100%;
+    height: 485px;
+    display: flex;
+    justify-content: center;
+}
+.articles-innermain{
+    background-color: white;
+    width: 88%;
+    height: 430px;
+    border-top-style: solid;
+    border-top-color: #c7c7cc;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #c7c7cc;
+    border-bottom-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-div{
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.innertext-div{
+    /* background-color: thistle; */
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.maintext-div{
+    /* background-color: salmon; */
+    width: 100%;
+    height: 70px;
+}
+.inner-maintext{
+    color: #414146;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.subtext-div{
+    /* background-color: rgb(172, 149, 157); */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.inner-subtext{
+    color: #414146;
+    font-size: 14px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    
+}
+.articles-button-div{
+    /* background-color: #bf7a8b; */
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.articles-button{
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #14bef0;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 4px;
+}
+
+/*                          rightside  */
+.right-div{
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*                   1 */
+
+.pic-name-maindiv-one{
+    /* background-color: darkgray; */
+    width: 48%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.articles-image{
+    width: 100%;
+    height: 200px;
+    border-radius: 3px;
+}
+.articles-image:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.conona-div{
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: last baseline;
+}
+.corona-text{
+    font-size: 12px;
+    color: #358588;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+.mainheading-div{
+    /* background-color: cyan; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.mainheading-text{
+    font-size: 16px;
+    font-family: Lato,sans-serif;
+    color: #414146;
+    font-weight: 600;
+}
+.doc-name-div{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.docname-text{
+    color: #414146;
+    font-size: 14px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
+
+/*                       2 */
+
+.pic-name-maindiv-two{
+    /* background-color: darkgray; */
+    width: 48%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.articles-image-two{
+    width: 100%;
+    height: 200px;
+    border-radius: 3px;
+}
+.articles-image-two:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.vitamins-div{
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: last baseline;
+}
+.vitamins-text{
+    font-size: 12px;
+    color: #358588;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+.mainheading-two-div{
+    /* background-color: cyan; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.mainheading-two-text{
+    font-size: 16px;
+    font-family: Lato,sans-serif;
+    color: #414146;
+    font-weight: 600;
+}
+.doc-name-div-two{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.docname-text-two{
+    color: #414146;
+    font-size: 14px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
+
+/* -----______what our user have to say_____----- */
+
+
+.whattosay-main{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.whattosay-head-textdiv{
+    /* background-color: #14bef0; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whattosay-text{
+    font-size: 30px;
+    color: #414146;
+    font-weight: 600;
+    font-family: Lato,sans-serif;
+}
+.whattosay-sub{
+    /* background-color: goldenrod; */
+    width: 50%;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+}
+.description-div{
+    /* background-color: #14f03c; */
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+.description-text{
+    text-align: center;
+    font-size: 24px;
+    color: #414146;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.doctor-name-div{
+    /* background-color: crimson ; */
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar-pic{
+    width: 25px;
+    height: 25px;
+}
+.doc-name{
+    font-size: 14px;
+    font-weight: 550;
+    color: #414146;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+
+
+/* ----_______Download Practo App_______---- */
+
+.downloadApp-main{
+    background-color: #f8f8fb;
+    width: 100%;
+    height: 572px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-maindiv{
+    /* background-color: cadetblue; */
+    width: 35%;
+    height: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.left-pic{
+    width: 332px;
+    height: 376px;
+}
+
+
+.right-maindiv{
+    /* background-color: white; */
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.download-textdiv{
+    /* background-color: rgb(74, 167, 27); */
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+.download-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #414146;
+}
+.download-para-div{
+    /* background-color: #91999c; */
+    width: 90%;
+    height: 100px;
+}
+.para-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.getlink-textdiv{
+    /* background-color: salmon; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.getlink-text{
+    font-size: 16px;
+    font-weight: 700;
+    color: #414146;
+    font-family: Helvetica, sans-serif;
+}
+.input-button-div{
+    /* background-color: rgb(121, 14, 62); */
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.number-input-div{
+    /* background-color: #c7c7cc; */
+    width: 280px;
+    height: 100%;
+    display: flex;
+}
+.c-code{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    font-weight: 550;
+    font-family: sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d4d6dd;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.phone-input{
+    width: 210px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 550;
+    padding-left: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d4d6dd;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.sms-button{
+    background-color: #14bef0;
+    font-size: 14px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    width: 117px;
+    height: 50px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.storediv{
+    /* background-color: rgb(200, 22, 22); */
+    width: 285;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.googleplay{
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+}
+.appstore{
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+/* -----_______Footer_______----- */
+
+
+.footer-main{
+    background-color: #28328c;
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-links-maindiv{
+    /* background-color: rgb(112, 159, 153); */
+    width: 100%;
+    height: 370px;
+    display: flex;
+}
+.all-linkdiv-one{
+    /* background-color: rgb(79, 79, 35); */
+    width: 18.9%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    /* border-style: solid; */
+}
+.all-linkdiv-two{
+    /* background-color: rgb(79, 79, 35); */
+    width: 18.9%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    /* border-style: solid; */
+}
+.all-linkdiv-three{
+    /* background-color: rgb(79, 79, 35); */
+    width: 18.9%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    /* border-style: solid; */
+}
+.all-linkdiv-four{
+    /* background-color: rgb(79, 79, 35); */
+    width: 18.9%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    /* border-style: solid; */
+}
+.all-linkdiv-five{
+    /* background-color: rgb(79, 79, 35); */
+    width: 18.9%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    /* border-style: solid; */
+}
+.links-title-six{
+    /* background-color: brown; */
+    width: 58%;
+    height: 70px;
+    display: flex;
+    align-items: end;
+}
+.links-title{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.links-title-practo{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.links-div{
+    /* background-color: #6f6f86; */
+    width: 58%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    color: #fff;
+    font-family: Lato,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: underline;
+}
+.footer-logo-main{
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.copyright-main{
+    /* background-color: tomato; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.copyright-text{
+    color: #b8bbd9;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.connect-expert-div{
+    /* background-color: #c4bfbf; */
+    height: 151px;
+    border-radius: 20px;
+    width: 315px;
+    display: flex;
+    /* justify-content: end; */
+    position: fixed;
+    right: 18px;
+    bottom: 50px;
+    z-index: 2;
+    
+    border-style: none;
+    /* box-shadow: 0 0 5px 1px rgb(126, 115, 115); */
+    cursor: pointer;
+}
+.connect-expert-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    
+}
+
+
